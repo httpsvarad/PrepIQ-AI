@@ -181,14 +181,14 @@ IMPORTANT INSTRUCTIONS:
 
                             <div className="flex gap-4 mt-auto">
                                 <button
-                                    className="px-6 py-3 bg-blue-500 cursor-pointer hover:bg-blue-600 text-white font-semibold rounded-lg transition shadow-md"
+                                    className="px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 cursor-pointer hover:bg-blue-600 text-white font-semibold rounded-md transition shadow-md"
                                     onClick={startListening}
                                 >
                                     {isListening ? "Listening..." : "Speak"}
                                 </button>
 
                                 <button
-                                    className="px-6 py-3 bg-gradient-to-r hover:scale-105 bg-green-500 cursor-pointer hover:bg-green-600 text-white font-semibold rounded-lg transition shadow-md"
+                                    className="px-6 py-3 bg-gradient-to-r from-green-400 to-green-600 hover:scale-105 cursor-pointer hover:bg-green-600 text-white font-semibold rounded-lg transition shadow-md"
                                     onClick={() => {
                                         setTranscript("");
                                         setResponse("Hello! I'm Alex, your AI interviewer. Let's start with a quick introduction about yourself.");
@@ -200,7 +200,7 @@ IMPORTANT INSTRUCTIONS:
                                 </button>
 
                                 <button
-                                    className="px-6 py-3 bg-gradient-to-r bg-red-500 hover:scale-105 cursor-pointer hover:bg-red-600 text-white font-semibold rounded-lg transition shadow-md"
+                                    className="px-6 py-3 bg-gradient-to-r  from-red-400 to-red-600 hover:scale-105 cursor-pointer hover:bg-red-600 text-white font-semibold rounded-lg transition shadow-md"
                                     onClick={() => {
                                         setTranscript("");
                                         setResponse("Thank you for the interview! I'm generating your report, please wait.");
