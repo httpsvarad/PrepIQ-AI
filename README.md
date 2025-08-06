@@ -43,8 +43,7 @@ git clone https://github.com/httpsvarad/PrepIQ-AI.git
 npm install
 
 # Set up environment variables
-cp .env.example .env
-# Add your Gemini key, DB URI, etc.
+Add your Gemini key, DB URI, etc.
 
 # Start the development server
 npm run dev
