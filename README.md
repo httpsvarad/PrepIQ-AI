@@ -9,7 +9,7 @@ A smart, interactive platform for conducting mock interviews using AI - built to
 - 🧠 **AI-Powered Interviewer**: Simulates HR, behavioral, and technical interviews using OpenAI GPT models.
 - 📝 **Dynamic Question Generation**: Questions tailored to roles like Frontend Developer, Backend Developer, Data Scientist, and more.
 - 📊 **Feedback & Scoring**: Real-time feedback on responses with scoring on communication, problem-solving, and technical accuracy.
-- 📄 **Transcript & Analytics**: Interview summary with performance breakdown.
+- 📄 **Behavioral Analysis with OpenCV**: Analyzes facial expressions, eye contact, and body language using computer vision techniques to assess candidate confidence and attentiveness.
 - 🎤 **Voice Support** : Respond using microphone and receive audio feedback.
 
 ---
@@ -18,6 +18,7 @@ A smart, interactive platform for conducting mock interviews using AI - built to
 
 - **Frontend**: React.js, Tailwind CSS
 - **Backend**: Node.js
+- **Computer Vision**: OpenCV
 - **AI Integration**: Google Gemini API
 - **Deployment**: Vercel
 
